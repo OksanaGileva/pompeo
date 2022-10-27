@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/**
+ * Основные стили
+ **/
+
+html {
+	font-size: 16px;
+	color: black;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.btn-red  {
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 14px 30px;
+	background: #AC1313;
+	border: none;
+	color: white;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+	
+.title-black {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.title-red {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #D77474;
+}
+
+span {
+	font-family: 'Playfair Display', serif;
+	color: #AC1313;
+	font-size: 68px;
+	line-height: 68px;
+}
