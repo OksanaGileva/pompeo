@@ -1,0 +1,49 @@
+.shop-wrapper {
+  padding: 20px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.shop-container {
+  padding: 160px 0;
+}
+
+.shop-title--top {
+  margin-bottom: 20px;
+}
+
+.shop-sign{
+  position: absolute;
+  margin-top: -106px;
+  margin-left: 348px;
+}
+
+.shop-description {
+  line-height: 26px;
+  color: $grey;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 26px;
+  margin-bottom: 68px;
+}
+
+.shop-image {
+  margin-left: -60px;
+  margin-top: -52px;
+}
+
+@media (max-width: 455px) {
+  .shop-container {
+    padding: 90px 0;
+  }
+
+  .shop-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .shop-sign {
+    margin-left: 280px;
+  }
+}

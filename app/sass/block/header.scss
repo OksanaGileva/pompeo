@@ -1,0 +1,40 @@
+.navbar-top {
+  padding: 20px 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #6C6C6C;
+
+  &:hover {
+    color:  #AC1313;
+  }
+}
+
+.start-button {
+  border-left: solid 1px #EBEBEB;;
+}
+
+.header-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.start-button-image {
+  margin-right: 8px;
+}
+
+@media (max-width: 770px) {
+  .navbar-left {
+    margin-bottom: 20px;
+  }
+}
