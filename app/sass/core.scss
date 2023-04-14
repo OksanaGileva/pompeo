@@ -19,22 +19,6 @@ body {
 p {
 	font-family: 'Libre Franklin', sans-serif;
 }
-
-.btn-red  {
-	letter-spacing: 1px;
-	font-size: 12px;
-	line-height: 22px;
-	font-weight: 700;
-	text-transform: uppercase;
-	padding: 14px 30px;
-	background: #AC1313;
-	border: none;
-	color: white;
-
-	&:hover {
-		text-decoration: underline;
-	}
-}
 	
 .title-black {
 	font-weight: 700;
@@ -57,4 +41,12 @@ span {
 	color: #AC1313;
 	font-size: 68px;
 	line-height: 68px;
+}
+
+@media (max-width: 465px) {
+
+	.title-black {
+		font-size: 32px;
+		line-height: 36px;
+	}
 }

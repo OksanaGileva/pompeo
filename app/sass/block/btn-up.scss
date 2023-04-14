@@ -1,0 +1,21 @@
+.btn-up {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  cursor: pointer;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+}
+
+.btn-up_hide {
+  display: none;
+}
